@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
 
   s.dependency 'React'
   s.preserve_paths        = "ios/new/VialerPJSIP.framework/*"
-	s.public_header_files   = "ios/new/VialerPJSIP.framework/Versions/A/Headers/**/*.{h,hpp}"
-	s.source_files		    = "ios/new/VialerPJSIP.framework/Versions/A/Headers/**/*.{h,hpp}"
+  s.public_header_files   = "ios/new/VialerPJSIP.framework/Versions/A/Headers/**/*.{h,hpp}"
+  s.source_files		    = "ios/new/VialerPJSIP.framework/Versions/A/Headers/**/*.{h,hpp}"
   s.vendored_frameworks = 'ios/new/VialerPJSIP.framework'
   s.xcconfig = {
     'GCC_PREPROCESSOR_DEFINITIONS' => 'PJ_AUTOCONF=1',
